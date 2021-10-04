@@ -1,6 +1,5 @@
 module SongsHelper
   def artist_select(song)
-    binding.pry
     label :song, :artist_name, "Artist Name"
     if !params[:artist_id] && params[:action] == "edit"
       collection_select :song, :artist_id, Artist.all, :id, :name
