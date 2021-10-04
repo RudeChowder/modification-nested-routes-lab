@@ -187,6 +187,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-19
+  x86_64-darwin-20
 
 DEPENDENCIES
   bootsnap
@@ -204,4 +205,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   2.2.19
+   2.2.26
